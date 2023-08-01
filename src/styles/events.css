@@ -1,0 +1,16 @@
+.events-section{
+    display: flex;
+    justify-content: space-around;
+    width: 474px;
+    flex-wrap: wrap;
+    margin:auto;
+    gap:10px;
+}
+
+.events-parent h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
