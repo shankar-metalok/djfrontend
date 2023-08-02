@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Signup from './components/signup';
 import Events from './components/events'
-import Map from './components/map'
+import Home from './components/home'
 
 const App = () => {
 
@@ -18,7 +18,7 @@ const App = () => {
         <Route path='/' element={<Events/>}/>
         <Route path='register' element={<Register/>}/>
         <Route path='signup' element={<Signup/>}/>
-        <Route path='/map' element={<Map/>}/>
+        <Route path='/home' element={<Home/>}/>
       </Routes>
     </BrowserRouter>
       

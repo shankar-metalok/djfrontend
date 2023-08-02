@@ -1,21 +1,43 @@
-.input-section{
-    display: flex;
-    flex-direction: column;
-    gap:30px
-}
 
-.reg-section{
-    width: 450px;
-    margin:auto;
-}
+/* signup.css */
 
-.input-section input{
-    height: 40px;
-}
+.signup-section {
+    max-width: 400px;
+    margin: auto;
+    margin-top:20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-section h3 {
+    cursor: pointer;
+  }
+  
+  .signup-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .signup-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-section button:hover {
+    background-color: #0056b3;
+  }
+  
 
-.signup-section{
-    width: 450px;
-    border:2px solid rgb(55, 48, 48);
-    margin:auto;
-    text-align: center;
-}

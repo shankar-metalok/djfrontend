@@ -1,8 +1,12 @@
 import React from "react";
 import "../styles/signup.css";
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
+
+  const navigate = useNavigate();
+
   const [signinup, setsigninup] = useState(true);
 
   const signin = () => {
@@ -12,6 +16,14 @@ const Signup = () => {
     setsigninup(false);
   };
 
+  const loginfun =()=>{
+    navigate('/home')
+
+  }
+  const  createaccountfun = () =>{
+    navigate('/home')
+  }
+ 
   return (
     <div className="signup-section">
       <div className="d-flex gap-2 justify-content-center">
@@ -32,7 +44,7 @@ const Signup = () => {
             <input type="password" placeholder="password" />
           </div>
 
-          <button>login</button>
+          <button onClick={loginfun}>login</button>
         </div>
       ) : (
         <div>
@@ -45,7 +57,7 @@ const Signup = () => {
             <input type="password" placeholder="password" />
           </div>
 
-          <button>Create Account</button>
+          <button onClick={createaccountfun}>Create Account</button>
         </div>
       )}
     </div>

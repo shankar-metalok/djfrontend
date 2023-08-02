@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/signup.css'
+import '../styles/register.css'
 
 import { useNavigate } from 'react-router-dom';
 
@@ -61,7 +61,7 @@ const successfun = () =>{
 
 
 
-  return <div>
+  return <div className='m-5'>
 
    {regsuccess &&
      <div className='text-center'>
@@ -83,7 +83,7 @@ const successfun = () =>{
 
        </div>
  
-       <button className='m-5' onClick={regsubmit} >Continue</button>
+       <button onClick={regsubmit} >Continue</button>
     </div>}
   
 
