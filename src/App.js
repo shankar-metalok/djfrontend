@@ -5,7 +5,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Signup from './components/signup';
 import Events from './components/events'
 import Home from './components/home'
+import Orderdata from './components/orderdata';
 
+import OTPVerification from './components/otpverify';
 const App = () => {
 
 
@@ -19,6 +21,10 @@ const App = () => {
         <Route path='register' element={<Register/>}/>
         <Route path='signup' element={<Signup/>}/>
         <Route path='/home' element={<Home/>}/>
+        <Route path='/orderdata' element={<Orderdata/>}/>
+        <Route path='/otpverify' element={<OTPVerification/>}/>
+
+
       </Routes>
     </BrowserRouter>
       

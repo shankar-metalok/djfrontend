@@ -1,0 +1,50 @@
+/* OrderDetails.css */
+.order-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .accepted {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+  }
+  
+  .rejected {
+    background-color: #f2dede;
+    border-color: #ebcccc;
+  }
+  
+  .order-id,
+  .order-name {
+    margin: 0;
+    color: #333;
+  }
+  
+  .time-text {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .accept-btn,
+  .reject-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .accept-btn {
+    margin-right: 5px;
+    background-color: #28a745;
+  }
+  
+  .reject-btn {
+    background-color: #dc3545;
+  }
+  
